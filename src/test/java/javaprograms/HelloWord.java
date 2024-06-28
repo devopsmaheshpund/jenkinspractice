@@ -11,7 +11,9 @@ public class HelloWord {
 	
 	@Test
 	public void additionOfTwoNumbers() {
-		int addition=10+20;
+		int i=10;
+		int j=20;
+		int addition=i+j;
 		System.out.println("Addition of two Numbers: "+addition);
 	}
 }
