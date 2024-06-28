@@ -1,7 +1,11 @@
 package javaprograms;
 
+import org.testng.annotations.Test;
+
 public class HelloWord {
-	public static void main(String args[]) {
+
+	@Test
+	public void helloWord() {
 		System.out.println("Hello Word");
 	}
 }
